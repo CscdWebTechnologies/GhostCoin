@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.contMain{
+    background-color: #1652f0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 10px ;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.earnBox-flex-1{
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.earnBox-flex-2{
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.earnBox-flex-inner{
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.earnBox-flex-inner-box{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.innerEarnBox{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 20%;
+    padding-right: 30%;
+}
+
+.mainStarted{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.getStarted{
+    color: #0f3256;
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 40px;
+}
+
+.getStarted-p{
+    color:#0f3256;
+    padding-top: 2%;
+}
+
+h4{
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    line-height: 1.3;
+    color: rgb(5, 15, 25);
+    font-size: 32px;
+    font-weight: 500;
+    margin:0px 0px 16px;
+}
+
+p{
+    color: rgb(223, 223, 223);
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.earnBox-p{
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: rgb(5, 15, 25);
+    margin:0px 0px 16px;
+}
+
+
+.earnBox{
+    background-color:#e9f6ff;
 }
