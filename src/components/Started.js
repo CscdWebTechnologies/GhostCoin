@@ -14,8 +14,8 @@ const Started = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="">
-                    
+                <div className="col-md-4">
+
                 </div> 
             </div>
         </div>   
