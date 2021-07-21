@@ -19,6 +19,7 @@
      "test": "craco test",
     "eject": "react-scripts eject"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
