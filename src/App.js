@@ -1,19 +1,7 @@
-import './App.css';
-import Numbers from "./components/Numbers";
-import StartEarn from "./components/StartEarn";
-import Started from "./components/Started";
-import Footer from "../src/components/Footer";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      
-      <Numbers/>
-      <Started/>
-      <StartEarn/>
-      <Footer/>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
